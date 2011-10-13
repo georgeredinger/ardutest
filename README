@@ -1,0 +1,11 @@
+Ardutest - A unit testing mocks library for Arduino.
+
+This library is maintained by engineers at Mind Studios, and provided free of
+charge for the benefit of the community. Its primary focus is on providing a set
+of mocks that can be used to test Arduino-based code on a development machine by
+enabling cross compilation without modifying the source. The library relies on
+GNU libc, and is known to work on Linux.
+
+Code contributions are welcome! We want to make this library as useful as
+possible. We prefer to have code submitted either as a git diff to Nick Pascucci
+(npascut1@gmail.com), or as a pull request on GitHub.
