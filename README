@@ -1,11 +1,38 @@
-Ardutest - A unit testing mocks library for Arduino.
+                                    Ardutest
+                    A unit testing mock library for Arduino.
 
+                                 -- Overview --
 This library is maintained by engineers at Mind Studios, and provided free of
 charge for the benefit of the community. Its primary focus is on providing a set
 of mocks that can be used to test Arduino-based code on a development machine by
 enabling cross compilation without modifying the source. The library relies on
-GNU libc, and is known to work on Linux.
+GNU libc, and is known to work on Linux. The unit tests for the mock objects are
+written for CppUTest (http://www.cpputest.org), but the objects themselves 
+should be useable in any C++ test suite.
 
+                               -- Contributing --
 Code contributions are welcome! We want to make this library as useful as
 possible. We prefer to have code submitted either as a git diff to Nick Pascucci
 (npascut1@gmail.com), or as a pull request on GitHub.
+
+                                 -- License --
+All of the code for Ardutest is licensed under the GNU LGPL v2.1. In essence,
+this means that you can link against the code here and use it as a library
+without having to disclose your own code, as long as you leave the library
+alone. Any changes to the library must be open source under the same license.
+For the full, legally binding details see the included LICENSE file. These files
+may be used for commercial purposes within the limits imposed by the LGPL.
+
+                                 -- Warranty -- 
+Sorry to have to shout, but:
+
+THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE
+LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER
+PARTIES PROVIDE THE PROGRAM “AS IS” WITHOUT WARRANTY OF ANY KIND, EITHER
+EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE
+QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE
+DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+
+If you do find things that need fixing, please let us know! We all benefit when
+we make our corrections open source. Sharing is caring.
